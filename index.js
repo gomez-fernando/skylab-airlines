@@ -66,7 +66,7 @@ $ ${average(flights)}`);
   console.info('Los últimos 5 vuelos del día son: \n');
 
   for (let i = flights.length - 1; i > (flights.length - 6); i--) {
-console.log(` Destino: ${flights[i].to} | Origen: ${flights[i].from}`);
+console.log(`ID: ${flights[i].id} Destino: ${flights[i].to} | Origen: ${flights[i].from}`);
   }
 }
 
